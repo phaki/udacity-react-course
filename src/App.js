@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 /*
 Display a list of movies where each movie contains a list of users that favorited it.
-=======
-import React, {Component} from 'react';
-import './App.css';
-import logo from './logo.svg';
 
-/*
 Use React and the data below to display a list of users alongside their favorite movies.
->>>>>>> 56ba9a536a96d4accdfb3d924f0304e926789ca2
 
 For detailed instructions, refer to instructions.md.
 */
@@ -53,11 +46,8 @@ const profiles = [
 const users = {
   1: {
     id: 1,
-<<<<<<< HEAD
     name: 'Jane Jones',
-=======
     name: 'Jane Cruz',
->>>>>>> 56ba9a536a96d4accdfb3d924f0304e926789ca2
     userName: 'coder',
   },
   2: {
@@ -71,11 +61,8 @@ const users = {
     userName: 'user123',
   },
   4: {
-<<<<<<< HEAD
     id: 3,
-=======
     id: 4,
->>>>>>> 56ba9a536a96d4accdfb3d924f0304e926789ca2
     name: 'John Doe',
     userName: 'user123',
   },
@@ -94,11 +81,8 @@ const users = {
 const movies = {
   1: {
     id: 1,
-<<<<<<< HEAD
     name: 'Planet Earth',
-=======
     name: 'Planet Earth 1',
->>>>>>> 56ba9a536a96d4accdfb3d924f0304e926789ca2
   },
   2: {
     id: 2,
@@ -119,21 +103,9 @@ const movies = {
 };
 
 class App extends Component {
-<<<<<<< HEAD
-  
+
   getMoviesList(profile) {
   }
-  
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">ReactND - Coding Practice</h1>
-        </header>
-        <h2>How Popular is Your Favorite Movie?</h2>
-      </div>
-=======
 
   getFavoriteMovie(profile) {
     const user = profile.userID.valueOf();
@@ -154,8 +126,8 @@ class App extends Component {
           <ul>
             {profiles.map((profile) => this.getFavoriteMovie(profile))}
           </ul>
+          <h2>How Popular is Your Favorite Movie?</h2>
         </div>
->>>>>>> 56ba9a536a96d4accdfb3d924f0304e926789ca2
     );
   }
 }
