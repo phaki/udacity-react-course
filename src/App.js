@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import logo from './logo.svg';
 
@@ -98,15 +98,27 @@ const movies = {
 };
 
 class App extends Component {
+
+  getFavoriteMovie(profile) {
+    const user = profile.userID.valueOf();
+    const movie = profile.favoriteMovieID.valueOf();
+    const userName = users[user].name;
+    const movieName = movies[movie].name;
+    return <li key={profile.id}>{userName}'s favorite movie is {movieName}.</li>
+  }
+
   render() {
     return (
-      <div>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">ReactND - Coding Practice</h1>
-        </header>
-        <h2>Favorite Movies</h2>
-      </div>
+        <div>
+          <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo"/>
+            <h1 className="App-title">ReactND - Coding Practice</h1>
+          </header>
+          <h2>Favorite Movies</h2>
+          <ul>
+            {profiles.map((profile) => this.getFavoriteMovie(profile))}
+          </ul>
+        </div>
     );
   }
 }
