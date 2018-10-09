@@ -241,7 +241,7 @@
       <updated>1539006437667</updated>
       <workItem from="1539006439264" duration="2118000" />
       <workItem from="1539009479573" duration="411000" />
-      <workItem from="1539095664512" duration="3694000" />
+      <workItem from="1539095664512" duration="4173000" />
     </task>
     <task id="LOCAL-00001" summary="install packages">
       <created>1539096935813</created>
@@ -264,15 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539100227354</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="install packages">
+      <created>1539100762389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539100762389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6841000" />
+    <option name="totallyTimeSpent" value="7320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-455" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
